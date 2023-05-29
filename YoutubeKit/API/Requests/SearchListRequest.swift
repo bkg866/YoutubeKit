@@ -29,7 +29,7 @@ public struct SearchListRequest: Requestable {
         case .relatedToVideoID(_)?:
             return false
         case .none:
-            return false
+            return true
         }
     }
     
