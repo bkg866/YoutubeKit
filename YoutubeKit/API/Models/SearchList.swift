@@ -14,7 +14,7 @@ public struct SearchList: Codable {
     public let nextPageToken: String?
     public let prevPageToken: String?
     public let pageInfo: PageInfo
-    public let regionCode: String
+    public let regionCode: String?
 }
 
 public struct SearchResult: Codable {

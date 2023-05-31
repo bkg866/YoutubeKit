@@ -58,9 +58,9 @@ extension Requestable {
 
         var keyParams: [String: Any] = queryParameters
         
-        if !isAuthorizedRequest {
+//        if !isAuthorizedRequest {
             keyParams["key"] = YoutubeKit.shared.apiKey
-        }
+//        }
         
         urlComponents.query = keyParams
             .map { "\($0.key)=\($0.value)" }
