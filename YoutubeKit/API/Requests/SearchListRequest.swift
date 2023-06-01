@@ -85,8 +85,8 @@ public struct SearchListRequest: Requestable {
     public let onBehalfOfContentOwner: String?
     public let order: ResultOrder.Search?
     public let pageToken: String?
-    public let publishedAfter: Date?
-    public let publishedBefore: Date?
+    public let publishedAfter: String?
+    public let publishedBefore: String?
     public let searchQuery: String?
     public let regionCode: String?
     public let safeSearch: SearchSafeMode?
@@ -111,8 +111,8 @@ public struct SearchListRequest: Requestable {
                 onBehalfOfContentOwner: String? = nil,
                 order: ResultOrder.Search? = nil,
                 pageToken: String? = nil,
-                publishedAfter: Date? = nil,
-                publishedBefore: Date? = nil,
+                publishedAfter: String? = nil,
+                publishedBefore: String? = nil,
                 searchQuery: String? = nil,
                 regionCode: String? = nil,
                 safeSearch: SearchSafeMode? = nil,
