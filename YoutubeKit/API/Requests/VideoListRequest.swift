@@ -41,7 +41,7 @@ public struct VideoListRequest: Requestable {
         q.appendingQueryParameter(key: "onBehalfOfContentOwner", value: onBehalfOfContentOwner)
         q.appendingQueryParameter(key: "pageToken", value: pageToken)
         q.appendingQueryParameter(key: "regionCode", value: regionCode)
-        q.appendingQueryParameter(key: "videoCategoryID", value: videoCategoryID)
+        q.appendingQueryParameter(key: "videoCategoryId", value: videoCategoryID)
         return q
     }
 
